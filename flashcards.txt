@@ -1,0 +1,43 @@
+# Music chord/scale flashcards
+
+# Major
+C
+G
+D
+#A
+#E
+#B
+#Gb/F#
+#Db/C#
+#Ab
+Eb
+Bb
+F
+
+# Minor
+#Cm
+#Gm
+#Dm
+#Am
+#Em
+#Bm
+#Gbm/F#m
+#Dbm/C#m
+#Abm
+#Ebm
+#Bbm
+#Fm
+
+# Dominant
+#C7
+#G7
+#D7
+#A7
+#E7
+#B7
+#Gb7/F#7
+#Db7/C#7
+#Ab7
+#Eb7
+#Bb7
+#F7

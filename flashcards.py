@@ -28,7 +28,7 @@ import random
 import time
 
 # Constants
-VERSION = 'v1.00'
+VERSION = 'v1.01'
 
 # Global variables
 flashcards = []  # list of strings
@@ -105,10 +105,10 @@ def main():
     print('===================\n')
 
     # Process command-line arguments
-    arg_parser = argparse.ArgumentParser(description='Console-based flashcard utility')
-    arg_parser.add_argument('-f', '--flashcards', dest='flashcards', metavar='flashcards', default='flashcards.txt',
-                            help='flashcard file')
-    arg_parser.add_argument('-w', '--wait', dest='wait', metavar='wait', default=5,
+    arg_parser = argparse.ArgumentParser(description='Terminal-based flashcard utility')
+    arg_parser.add_argument('-f', '--flashcards', metavar='FILE', default='flashcards.txt',
+                            help='file with flashcard text')
+    arg_parser.add_argument('-w', '--wait', metavar='SECONDS', default=5, type=int,
                             help='seconds between flashcards')
     args = arg_parser.parse_args()
     flashcard_file = args.flashcards
